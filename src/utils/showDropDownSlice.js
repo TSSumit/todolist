@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const showDropDownSlice = createSlice({
     name: "dropDown",
     initialState: {
-        showDropDown: false,
+        showDropDown: true,
     },
     reducers: {
         toggleDropDown: (state) => {
